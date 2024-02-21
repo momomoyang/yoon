@@ -1,0 +1,300 @@
+body{
+    background-color: #EFE7E3;
+}
+
+/* 전체 틀 */
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 오른쪽 위 메뉴 칸 */
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #c2b4ab;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+}
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.site-name{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+/* 중간 큰 글자 */
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.korean-comment{
+    font-family: 'Nato Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+/* "정지유" */
+
+.sample{
+    background-color: pink;
+}
+
+
+/* 커서 올리면 색깔 변하는거 */
+
+.sample:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+
+
+/* 이름칸 배경색 */
+
+.highlight{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+
+.highlight:hover{
+    background-color: pink;
+    color: black;
+    transition: none;
+}
+
+/* 빈칸 색깔 */
+
+.type1:hover{
+    background-color: deepskyblue;
+}
+
+.type2:hover{
+    background-color: palegreen;
+}
+
+.type3:hover{
+    background-color: lightsalmon;
+}
+
+/* 멋진 영어 부분 */
+
+.english-comment{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+
+    letter-spacing: -0.3px;
+}
+
+/* 중간 오른쪽 영어 recent works*/
+
+.recent-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #c2b4ab;
+    
+    text-align: right;
+    margin-top: 100px;
+}
+
+/* footer 콘텍트미 부분 */
+
+.work-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    border-top: 1px solid #c2b4ab;
+    border-bottom: 1px solid #c2b4ab;
+    
+}
+
+.links>a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.footer>p{
+    font-family: 'Nato Sans KR', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    margin-top: 5px;
+}
+
+/*info 영역*/
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 100px 100px;
+}
+
+#profile-picture{
+    width: 400px;
+    margin-right: 60px;
+}
+
+/* 인트로 부분 */
+
+.introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.introduction>p{
+    font-family: 'Nato Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+    margin-bottom: 40px;
+}
+
+/* 능력부분 */
+
+#capability{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+
+    line-height: 30px;
+}
+
+/* value section*/
+
+/* 마이 벨류 부분 */
+
+.value-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+}
+
+/* 사진과 설명있는 부분 */
+
+.value-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+}
+
+/* 아이콘 옆 설명부분 */
+
+.value{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+/* 아이콘 */
+
+.value-icon{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #c2b4ab;
+    border-radius: 50px;
+    /* 픽셀 늘릴수록 동그래짐 */
+}
+
+/* 설명부분 조작칸 */
+
+.value-intro{
+    margin-left: 30px;
+}
+
+.value-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.value-exp{
+    font-family: 'Nato Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+    margin: 0px;
+}
+
+
+
+
+
+
+/* footer section 맨 아래 플래티콘 설명칸(쓸꺼면 반드시 넣어야함)*/
+
+.footer-comment{
+    text-align: center;
+}
+
+
+a[title="flaticon"]:hover{
+    color: black;
+    text-decoration: underline;
+}
+
